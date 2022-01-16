@@ -1,0 +1,395 @@
+/*========= font add ==========*/
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Be+Vietnam+Pro&family=Oxygen&family=Poppins:ital@1&family=Prompt&family=Roboto+Slab:wght@300;400&family=Spline+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto Slab', serif;
+    background-color: rgb(209, 207, 207);
+    margin: 0;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+  }
+
+.logo{
+  cursor: pointer;
+  margin-left: 35px;
+}
+
+
+nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding: 30px 0;
+    width: 100%;
+  }
+nav > .logo {
+  color:#f14a87;
+}
+.navbar > ul {
+    display: flex;
+  }
+.navbar > ul > li {
+    list-style: none;
+    padding: 0 10px;
+  }
+.navbar > ul > li > a {
+    text-decoration: none;
+    color: #0A0826;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  /*=========== Nav Bar End  ===========*/
+
+  .camera-detail{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+  }
+.camera-title{
+    width: 50%;
+    padding: 0 20px;
+    line-height: 30px;
+  }
+.camera-title  h1 {
+    width: 75%;
+    line-height: 50px;
+  }
+.camera-title p {
+    width: 400px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+  }
+.btn{
+  text-decoration: none;
+    height: 44px;
+    width: 196px;
+    font-weight: 600;
+    padding: 10px 24px 10px 24px;
+    color: whitesmoke;
+    background-color: #E02C6D;
+    border: 0;
+    border-radius: 41px;
+ }
+
+ .icon-padding{
+   margin-left: 15px;
+ }
+ /* .submit{
+   cursor: pointer;
+ } */
+.simble{
+    margin-left: 40px;
+ }
+
+
+
+
+ /*============= Copamay Logo  ==============*/
+
+.all-logo {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 70px;
+  padding: 20px 40px;
+  border-top: 1px solid rgb(156, 154, 154);
+  border-bottom: 1px solid rgb(141, 137, 137);
+}
+
+
+
+ /*=========== Main part start  ==========*/
+
+
+
+
+        /*========== Pulular Producu Start  =======*/
+
+.product-header{
+    text-align: center;
+    margin: 50px 0;
+ }
+
+ /* .popular-product{
+
+ } */
+
+.popular-product {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 40px;
+  }
+.product-info {
+    padding: 20px;
+    border-radius: 5px;
+    line-height: 30px;
+    background-color: #fff;
+  }
+.product-info img {
+    width: 100%;
+  }
+.fill-star {
+    color: #FB8200;
+  }
+  .emty-star{
+    color: #787885;
+}
+
+.see-more-btn {
+    text-align: right;
+    margin: 20px 0;
+}
+.see-more-btn > a {
+    text-decoration: none;
+    color: #e02c6d;
+}
+
+
+ /*========== Pulular Product End  =========*/
+
+
+
+
+  /*========== Feature Product Start  =========*/
+
+
+.feature-header{
+    text-align: center;
+    margin: 50px 0;
+ }
+.my-feature{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 60px;
+  height: fit-content;
+  width: 100%;
+}
+
+.join-btn{
+  text-decoration: none;
+  height: 44px;
+  width: 196px;
+  padding: 10px 24px 10px 24px;
+  color: whitesmoke;
+  background-color: #E02C6D;
+  border: 0;
+}
+
+
+.left{
+  width: 50%;
+}
+.left h1{
+  margin-top: 70px;
+}
+.left p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.right{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 30px;
+  align-items: center;
+  position: relative;
+}
+
+.hovering-text{
+  box-sizing: border-box;
+  display: none;
+  position: absolute;
+  padding: 8px;
+  position: absolute;
+  width: 300px;
+  top: 190px;
+  
+}
+
+.hovering-allbum:hover .hovering-text{
+    color: rgba(255, 136, 0, 0.904);
+    display: block;
+    background-color: rgba(5, 5, 5, 0.699);
+}
+
+.hover-allbum:hover .photo{
+  transform: scale(0.5)
+}
+
+
+   /*========== Future Product End  =========*/
+
+
+
+/*============= Footer Start  ===========*/
+
+footer {
+  background-color: #001131;
+  color: #fff;
+  text-align: center;
+  padding: 60px 0;
+  margin-top: 30px;
+  line-height: 15px;
+}
+
+.social-icon {
+  margin: 20px;
+}
+footer .fab {
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: #1c2435;
+  color: whitesmoke;
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+footer .fab:hover {
+  color: rgb(245, 102, 245);
+}
+footer p {
+  margin: 10px 0;
+}
+.color {
+  color: rgb(214, 240, 98);
+  text-decoration: underline;
+}
+
+
+/*======== Media queary Starting ========= */
+
+
+@media screen and (max-width: 1250px) {
+  
+    .camera-section{
+      display: flex;
+      flex-direction: column;
+    }
+    .logo{
+      margin-left: 60px;
+    }
+    .popular-product{
+      grid-gap: 15px;
+    }
+    .right{
+      display: flex;
+      flex-direction: column;
+      margin-right: 30px;
+    }
+    .photo{
+      margin-bottom: 30px;
+    }
+    
+}
+
+
+/*======== Mobile screen Start =========  */
+
+@media screen and (max-width: 992px) {
+    .camera-section{
+        display: flex;
+        flex-direction: column;
+      }
+      .popular-product {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr 1fr;
+        grid-gap: 50px;
+      }
+      .camera-img > img{
+        width: 100%;
+      }
+
+      .camera-title{
+        margin-left: 30px;
+
+      }
+      .all-logo > a > img{
+        width: 65%;
+      }
+
+}
+
+
+@media screen and (max-width: 768px) {
+
+  nav{
+    display: flex;
+    padding: 30px 0;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .camera-section{
+      display: flex;
+      flex-direction: column;
+  }
+  .camera-img > img{
+    width: 100%;
+    position: relative;
+    bottom: 124px;
+    right: 79px;
+  }
+  .camera-title h1 {
+    text-align: center;
+    width: 15%;
+    
+    line-height: normal;
+}
+  .popular-product {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 1fr;
+      grid-gap: 20px;
+  }
+  .protuct-item-frame{
+    width: 100%;
+  }
+  .my-feature {
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 60px;
+    height: fit-content;
+    width: 100%;
+    margin-bottom: 30px;
+    align-content: center;
+    justify-content: end;
+    align-items: center;
+  }
+  .left {
+    align-items: center;
+  }
+  .left h1, p{
+    margin-top: 15px;
+    /* margin-left: 30px; */
+  }
+  
+  .photo {
+    margin-top: 40px;
+  }
+
+}
+
+/*======== Mobile screen Start =========  */
