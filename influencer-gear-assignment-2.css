@@ -82,6 +82,40 @@ nav{
     background-image: url("Media/images/Circle\ design.svg");
     background-repeat: no-repeat;
 }
+/* .camera-banar {
+    width: 50%;
+    padding: 0 20px;
+  }
+.camera-img {
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+  .img-text {
+    position: absolute;
+    top: 70px;
+    left: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: black 0.6 5%;
+    display: none;
+    color: rgb(0, 0, 0);
+  }
+  .camera-img:hover img {
+    transform: rotate(45deg);
+    transition: 1s;
+  }
+
+  .camera-img:hover .img-text {
+    display: block;
+    color: orangered;
+    background-color: rgba(0, 0, 0, 30%);
+    transition: 3s;
+  }
+  .img-text p {
+    width: 300px;
+    text-align: justify;
+  } */
 
 
 /*=========  Divider hr  =========*/
